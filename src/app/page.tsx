@@ -24,8 +24,13 @@ export default function Home() {
       <div className="w-full max-w-2xl">
         <BackgroundRemover />
       </div>
-      <footer className="mt-10 text-sm text-gray-500">
-        Built with ❤️
+      <footer className="mt-10 text-sm text-gray-500 flex flex-col items-center gap-2">
+        <span>Built with ❤️</span>
+        <div className="flex gap-4 mt-2">
+          <a href="/legal#privacy-policy" className="text-blue-600 underline">Privacy Policy</a>
+          <a href="/legal#terms-and-conditions" className="text-blue-600 underline">Terms & Conditions</a>
+          <a href="/legal#contact-us" className="text-blue-600 underline">Contact Us</a>
+        </div>
       </footer>
     </div>
   );
