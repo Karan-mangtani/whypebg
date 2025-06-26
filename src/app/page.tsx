@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import BackgroundRemover from "../components/BackgroundRemover";
+import RazorpayPaymentButton from "./razorpayButton";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
         <span className="mt-2 text-base font-medium text-gray-500 tracking-wide">AI Background Remover</span>
       </div>
       <h1 className="mb-6 text-3xl font-bold text-gray-800">
-         Free Online Image Background Removal Tool
+        Free Online Image Background Removal Tool
       </h1>
       <p className="mb-8 text-gray-600 max-w-md text-center">
         Instantly remove image backgrounds for free using our AI-powered tool. Upload your photo, erase the background with one click, and download a high-quality transparent PNG. No signup required!
@@ -26,7 +27,7 @@ export default function Home() {
       </div>
       <footer className="mt-10 text-sm text-gray-500 flex flex-col items-center gap-2">
         <span>Built with ❤️ Your little support by donating might keep this tool alive</span>
-        <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_Ql4vflqSlMzAqK" async> </script> </form>
+        <RazorpayPaymentButton />
         <div className="flex gap-4 mt-2">
           <a href="/legal#privacy-policy" className="text-blue-600 underline">Privacy Policy</a>
           <a href="/legal#terms-and-conditions" className="text-blue-600 underline">Terms & Conditions</a>

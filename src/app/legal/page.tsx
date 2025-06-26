@@ -89,6 +89,10 @@ export default function Legal() {
             <strong>10. Contact</strong><br />
             For any questions regarding these Terms and Conditions, please contact us at <a href="mailto:whype.casello@gmail.com" className="text-blue-600 underline">whype.casello@gmail.com</a>.
           </p>
+          <p>
+            <strong>11. No Refund Policy</strong><br />
+            All payments or donations made to Whype are voluntary and non-refundable. As Whype is a free service and any contributions are considered support for ongoing development and maintenance, we do not offer refunds under any circumstances. Please consider your decision carefully before making a payment or donation.
+          </p>
         </div>
       </section>
       <section id="support-whype" className="mb-12">
