@@ -25,7 +25,8 @@ export default function Home() {
         <BackgroundRemover />
       </div>
       <footer className="mt-10 text-sm text-gray-500 flex flex-col items-center gap-2">
-        <span>Built with ❤️</span>
+        <span>Built with ❤️ Your little support by donating might keep this tool alive</span>
+        <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_Ql4vflqSlMzAqK" async> </script> </form>
         <div className="flex gap-4 mt-2">
           <a href="/legal#privacy-policy" className="text-blue-600 underline">Privacy Policy</a>
           <a href="/legal#terms-and-conditions" className="text-blue-600 underline">Terms & Conditions</a>
